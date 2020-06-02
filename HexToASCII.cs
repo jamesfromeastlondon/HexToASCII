@@ -28,10 +28,7 @@ namespace HexToASCII
             return new string(letters);
         }
 
-        public static int GetHexFirst(string str)
-        {
-            return int.Parse(str) * 16;
-        }
+        public static int GetHexFirst(string str) => int.Parse(str) * 16;
 
         public static int GetHexSecond(string str)
         {
